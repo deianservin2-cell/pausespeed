@@ -21,9 +21,9 @@ class $modify(SpeedPause, PauseLayer) {
 
         struct Opt { const char* text; float speed; float x; };
         Opt opts[] = {
-            {"Slow", SLOW, 110.f},
-            {"Default", DEFAULT_SPEED, 175.f},
-            {"Fast", FAST, 240.f},
+            {"Slow", SLOW, 210.f},
+            {"Default", DEFAULT_SPEED, 275.f},
+            {"Fast", FAST, 340.f},
         };
 
         for (auto& o : opts) {
